@@ -1,0 +1,27 @@
+{
+    "name": "cafelaptrinh/laravel-admin",
+    "description": "admin laravel by cafelt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "cafelaptrinh",
+            "email": "cafelaptrinh2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "cafelaptrinh/laravel-permission": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CafeLT\\":"admin"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CafeLT\\Admin\\Providers\\AdminServiceProvider"
+            ]
+        }
+    }
+}
